@@ -11,7 +11,7 @@ import java.net.InetAddress;
 
 /**
  * <pre>
- * Playce-WASUP SpringBoot Application
+ * Sample SpringBoot Application
  *
  * Application 구동 시 DB 초기화가 필요한 경우 다음 두 가지 중 하나를 선택하여 옵션으로 입력한다.
  * <ul>
