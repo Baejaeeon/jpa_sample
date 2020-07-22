@@ -17,13 +17,13 @@ spring.jpa.hibernate.ddl-auto 값을 true로 설정 (애플리케이션 기동 �
 2. SampleApplication 기동
 
 ### CRUD 테스트 (City로 한정)
-- City 목록 조회
+#### City 목록 조회
 [GET] /sample/api/city
 
-- 특정 id 값의 city 조회
+#### 특정 id 값의 City 조회
 [GET] /sample/api/city/{id}
 
-- city 생성
+#### City 생성
 [POST] /sample/api/city
 body
 ```
@@ -35,8 +35,8 @@ body
 }
 ```
 
-- 특정 id 값의 city 수정
+#### 특정 id 값의 city 수정
 [PUT] /sample/api/city/{id}
 
-- 특정 id 값의 city 삭제
+#### 특정 id 값의 city 삭제
 [DELETE] /sample/api/city/{id}
