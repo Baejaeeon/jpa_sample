@@ -25,7 +25,7 @@ spring.jpa.hibernate.ddl-auto 값을 true로 설정 (애플리케이션 기동 �
 
 #### City 생성
 [POST] /sample/api/city
-body
+##### sample body
 ```
 {
   "country": "UK",
